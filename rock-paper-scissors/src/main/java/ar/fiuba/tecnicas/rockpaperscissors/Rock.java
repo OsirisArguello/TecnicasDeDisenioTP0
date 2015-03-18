@@ -11,7 +11,7 @@ public class Rock {
 	}
 
 	public Object vs(Rock rock) {
-		return rock;
+		return this;
 	}
 
 }
