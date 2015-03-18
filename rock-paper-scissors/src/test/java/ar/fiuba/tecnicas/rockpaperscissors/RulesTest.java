@@ -55,6 +55,4 @@ public class RulesTest {
     public void scissorsTieWithScissors() {
         assertEquals(scissors, scissors.vs(scissors));
     }
-    
-    //Testeando Git
 }
