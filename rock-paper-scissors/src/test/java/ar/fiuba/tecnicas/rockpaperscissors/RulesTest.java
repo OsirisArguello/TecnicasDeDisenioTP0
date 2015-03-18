@@ -23,7 +23,7 @@ public class RulesTest {
 
     @Test
     public void rockTieWithRock() {
-        assertEquals(rock, rock.vs(rock));
+        assertEquals(rock, rock.vs(new Rock()));
     }
 
 }
