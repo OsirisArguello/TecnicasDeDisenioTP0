@@ -55,5 +55,22 @@ public class RulesTest {
     public void scissorsTieWithScissors() {
         assertEquals(scissors, scissors.vs(scissors));
     }
+    
+    @Test
+    public void rockTieWithNewRock() {
+        assertEquals(rock, rock.vs(new Rock()));
+    }
+    
+    @Test
+    public void paperTieWithNewPaper() {
+        assertEquals(paper, paper.vs(new Paper()));
+    }
+    
+    @Test
+    public void scissorsTieWithNewScissors() {
+        assertEquals(scissors, scissors.vs(new Scissors()));
+    }
+    
+    
 
 }
